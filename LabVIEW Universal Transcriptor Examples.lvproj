@@ -1,8 +1,8 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="14008000">
-	<Property Name="varPersistentID:{7D9C2981-D16E-4DDD-9A11-3CD64D70D687}" Type="Ref">/My Computer/Dependencies/vi.lib/System Serial Library Variables.lvlib/Serial String Buffer</Property>
-	<Property Name="varPersistentID:{940C52F2-9B2A-497B-85CC-3AFA0FCE6F50}" Type="Ref">/My Computer/Dependencies/vi.lib/System Serial Library Variables.lvlib/Serial Status</Property>
-	<Property Name="varPersistentID:{C7E2C8A5-AFFE-40FD-A9BA-EADE2B4D2D20}" Type="Ref">/My Computer/Dependencies/LabVIEW Universal Transcriptor SD Card Library.lvlib/rewindDirectoryList</Property>
+	<Property Name="varPersistentID:{9A5AF2C8-0EDA-4A42-8A6E-43804F7C90D3}" Type="Ref">/My Computer/Dependencies/LabVIEW Universal Transcriptor SD Card Library.lvlib/rewindDirectoryList</Property>
+	<Property Name="varPersistentID:{C7E2C8A5-AFFE-40FD-A9BA-EADE2B4D2D20}" Type="Ref"></Property>
+	<Property Name="varPersistentID:{FEF8475A-FFB2-49B7-91AB-02CB7AB9365F}" Type="Ref"></Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -29,6 +29,9 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="MPU6050 AccelerometerGyroscope Examples" Type="Folder" URL="../MPU6050 AccelerometerGyroscope Examples">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="Rotary Encoder" Type="Folder" URL="../Rotary Encoder">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="SD Card ListFiles" Type="Folder" URL="../SD Card ListFiles">
@@ -107,6 +110,7 @@
 				<Item Name="String Array Delete Duplicates.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/utils/String Array Delete Duplicates.vi"/>
 				<Item Name="String Array Remove Duplicate Typedefinitions.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/utils/String Array Remove Duplicate Typedefinitions.vi"/>
 				<Item Name="String Correct Whitespaces.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/utils/String Correct Whitespaces.vi"/>
+				<Item Name="String Get Item Real Name from Full Name.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/utils/String Get Item Real Name from Full Name.vi"/>
 				<Item Name="String Indent Code.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/utils/String Indent Code.vi"/>
 				<Item Name="String Replace LabVIEW Data Types With C types.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/types/String Replace LabVIEW Data Types With C types.vi"/>
 				<Item Name="SubVI Call Translator If Exists.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/utils/SubVI Call Translator If Exists.vi"/>
@@ -123,7 +127,6 @@
 				<Item Name="Transcriptor LabVIEW to C code Step 1 and 2 Wires Declarations and Assignements.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/Transcriptors/2/Transcriptor LabVIEW to C code Step 1 and 2 Wires Declarations and Assignements.vi"/>
 				<Item Name="Transcriptor LabVIEW to C code Step 3 Translate Elements.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/Transcriptors/2/Transcriptor LabVIEW to C code Step 3 Translate Elements.vi"/>
 				<Item Name="Transcriptor LabVIEW to C code Step 4 Assign Output Values.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/Transcriptors/2/Transcriptor LabVIEW to C code Step 4 Assign Output Values.vi"/>
-				<Item Name="TranscriptorBasicObject.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/MCP4725/TranscriptorBasicObject.lvclass"/>
 				<Item Name="TranscriptorBasicObject.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/utils/TranscriptorBasicObject.lvclass"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="Unbundle Code Cluster.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/utils/Unbundle Code Cluster.vi"/>
@@ -132,7 +135,6 @@
 				<Item Name="Wire Is Different as WhileLoop EndRef Wire.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/utils/Wire Is Different as WhileLoop EndRef Wire.vi"/>
 				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
 			</Item>
-			<Item Name="Arduino MPU6050.lvlib" Type="Library" URL="../../LabVIEW-Universal-Transcriptor-MPU6050-Library/Arduino MPU6050.lvlib"/>
 			<Item Name="Available.vi" Type="VI" URL="../../ESP8266-Wifi-Wrapper/Available.vi"/>
 			<Item Name="Client Check If Valid.vi" Type="VI" URL="../../ESP8266-Wifi-Wrapper/Client Functions/Client Check If Valid.vi"/>
 			<Item Name="Client Flush.vi" Type="VI" URL="../../ESP8266-Wifi-Wrapper/Client Functions/Client Flush.vi"/>
@@ -166,6 +168,46 @@
 			<Item Name="WiFi Setup.vi" Type="VI" URL="../../ESP8266-Wifi-Wrapper/WiFi Setup.vi"/>
 			<Item Name="WiFi Start.vi" Type="VI" URL="../../ESP8266-Wifi-Wrapper/WiFi Start.vi"/>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="MCU6050 Show Acceleration" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{82A6B848-E284-4011-860A-38B35AC2E767}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{33CABFA3-4467-48B8-8E1A-83859F31A225}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{C8B47248-A22F-45B1-9C23-38CF289507B9}</Property>
+				<Property Name="Bld_buildSpecDescription" Type="Str">Dispaly graph of accelration from vibration demo programmed by LabVIEW Universal Transcriptor.</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">MCU6050 Show Acceleration</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/MCU6050 Show Acceleration</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{9C7345F3-3FA4-4C2E-8E1D-FE255A5BEE4B}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">LuboJ_LabVIEW_Universal_Transcriptor_Virbation_Demo.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/MCU6050 Show Acceleration/LuboJ_LabVIEW_Universal_Transcriptor_Virbation_Demo.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/MCU6050 Show Acceleration/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{5DC7713D-466B-4DFC-BC00-C2888142345C}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/MPU6050 AccelerometerGyroscope Examples/Show Values Graphs.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">MCU6050 Show Acceleration</Property>
+				<Property Name="TgtF_internalName" Type="Str">MCU6050 Show Acceleration</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2018 </Property>
+				<Property Name="TgtF_productName" Type="Str">MCU6050 Show Acceleration</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{E0D5EFC4-98C7-47A3-8604-968B9C20F0FE}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">LuboJ_LabVIEW_Universal_Transcriptor_Virbation_Demo.exe</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>
