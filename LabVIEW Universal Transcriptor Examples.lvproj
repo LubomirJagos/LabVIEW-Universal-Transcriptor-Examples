@@ -1,8 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="14008000">
 	<Property Name="varPersistentID:{9A5AF2C8-0EDA-4A42-8A6E-43804F7C90D3}" Type="Ref">/My Computer/Dependencies/LabVIEW Universal Transcriptor SD Card Library.lvlib/rewindDirectoryList</Property>
-	<Property Name="varPersistentID:{C7E2C8A5-AFFE-40FD-A9BA-EADE2B4D2D20}" Type="Ref"></Property>
-	<Property Name="varPersistentID:{FEF8475A-FFB2-49B7-91AB-02CB7AB9365F}" Type="Ref"></Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -17,6 +15,9 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Blink" Type="Folder" URL="../Blink">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="Digital Filters" Type="Folder" URL="../Digital Filters">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="ESP8266" Type="Folder" URL="../ESP8266">
@@ -150,8 +151,8 @@
 			<Item Name="LabVIEW Universal Trasncriptor Servo.lvlib" Type="Library" URL="../../LabVIEW-Universal-Transcriptor-ServoLibrary/LabVIEW Universal Trasncriptor Servo.lvlib"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="OTA Blink LED.vi" Type="VI" URL="../../ESP8266-Wifi-Wrapper/tests/OTA/utils/OTA Blink LED.vi"/>
-			<Item Name="OTA Handle.vi" Type="VI" URL="../../ESP8266-Wifi-Wrapper/ArduinoOTA/OTA Handle.vi"/>
 			<Item Name="OTA Init.vi" Type="VI" URL="../../ESP8266-Wifi-Wrapper/ArduinoOTA/OTA Init.vi"/>
+			<Item Name="OTA Ticker Attach.vi" Type="VI" URL="../../ESP8266-Wifi-Wrapper/ArduinoOTA/OTA Ticker Attach.vi"/>
 			<Item Name="Serial flush.vi" Type="VI" URL="../../LabVIEW-Universal-Transcriptor/Transcriptors/System API/Serial flush.vi"/>
 			<Item Name="Serial Print Target IP.vi" Type="VI" URL="../../ESP8266-Wifi-Wrapper/Serial Print Target IP.vi"/>
 			<Item Name="Serial Wifi Print IP.vi" Type="VI" URL="../../ESP8266-Wifi-Wrapper/Serial Wifi Print IP.vi"/>
