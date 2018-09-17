@@ -1,6 +1,8 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="14008000">
-	<Property Name="varPersistentID:{9A5AF2C8-0EDA-4A42-8A6E-43804F7C90D3}" Type="Ref">/My Computer/Dependencies/LabVIEW Universal Transcriptor SD Card Library.lvlib/rewindDirectoryList</Property>
+	<Property Name="varPersistentID:{87825689-3B10-46C6-BE31-92438BF1B120}" Type="Ref">/My Computer/Dependencies/vi.lib/System Serial Library Variables.lvlib/Serial Status</Property>
+	<Property Name="varPersistentID:{BAB893DA-7173-4FB6-A4B2-CB720DF15D60}" Type="Ref">/My Computer/Dependencies/vi.lib/System Serial Library Variables.lvlib/Serial String Buffer</Property>
+	<Property Name="varPersistentID:{C33FB141-B92A-40BE-995B-49B36E544600}" Type="Ref">/My Computer/Dependencies/LabVIEW Universal Transcriptor SD Card Library.lvlib/rewindDirectoryList</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -153,7 +155,6 @@
 			<Item Name="OTA Blink LED.vi" Type="VI" URL="../../ESP8266-Wifi-Wrapper/tests/OTA/utils/OTA Blink LED.vi"/>
 			<Item Name="OTA Init.vi" Type="VI" URL="../../ESP8266-Wifi-Wrapper/ArduinoOTA/OTA Init.vi"/>
 			<Item Name="OTA Ticker Attach.vi" Type="VI" URL="../../ESP8266-Wifi-Wrapper/ArduinoOTA/OTA Ticker Attach.vi"/>
-			<Item Name="Serial flush.vi" Type="VI" URL="../../LabVIEW-Universal-Transcriptor/Transcriptors/System API/Serial flush.vi"/>
 			<Item Name="Serial Print Target IP.vi" Type="VI" URL="../../ESP8266-Wifi-Wrapper/Serial Print Target IP.vi"/>
 			<Item Name="Serial Wifi Print IP.vi" Type="VI" URL="../../ESP8266-Wifi-Wrapper/Serial Wifi Print IP.vi"/>
 			<Item Name="Serial Wifi Print SoftAPIP.vi" Type="VI" URL="../../ESP8266-Wifi-Wrapper/Serial Wifi Print SoftAPIP.vi"/>
@@ -162,8 +163,6 @@
 			<Item Name="SoftAP Config.vi" Type="VI" URL="../../ESP8266-Wifi-Wrapper/SoftAP Config.vi"/>
 			<Item Name="SoftAP.vi" Type="VI" URL="../../ESP8266-Wifi-Wrapper/SoftAP.vi"/>
 			<Item Name="String Index Of.vi" Type="VI" URL="../../ESP8266-Wifi-Wrapper/String/String Index Of.vi"/>
-			<Item Name="System Serial Library Variables.lvlib" Type="Library" URL="../../LabVIEW-Universal-Transcriptor/Transcriptors/System API/System Serial Library Variables/System Serial Library Variables.lvlib"/>
-			<Item Name="TranscriptorBasicObject.lvclass" Type="LVClass" URL="../../LabVIEW-Universal-Transcriptor/utils/TranscriptorBasicObject.lvclass"/>
 			<Item Name="WiFi Begin.vi" Type="VI" URL="../../ESP8266-Wifi-Wrapper/WiFi Begin.vi"/>
 			<Item Name="WiFi Config.vi" Type="VI" URL="../../ESP8266-Wifi-Wrapper/WiFi Config.vi"/>
 			<Item Name="WiFi Setup.vi" Type="VI" URL="../../ESP8266-Wifi-Wrapper/WiFi Setup.vi"/>
