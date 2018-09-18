@@ -1,8 +1,10 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="14008000">
-	<Property Name="varPersistentID:{87825689-3B10-46C6-BE31-92438BF1B120}" Type="Ref">/My Computer/Dependencies/vi.lib/System Serial Library Variables.lvlib/Serial Status</Property>
-	<Property Name="varPersistentID:{BAB893DA-7173-4FB6-A4B2-CB720DF15D60}" Type="Ref">/My Computer/Dependencies/vi.lib/System Serial Library Variables.lvlib/Serial String Buffer</Property>
-	<Property Name="varPersistentID:{C33FB141-B92A-40BE-995B-49B36E544600}" Type="Ref">/My Computer/Dependencies/LabVIEW Universal Transcriptor SD Card Library.lvlib/rewindDirectoryList</Property>
+	<Property Name="varPersistentID:{086D13A4-4A78-48CF-8D95-811E937AD1EB}" Type="Ref">/My Computer/Interrupt With Global Variable Example/utils/Interrupt Example Globals Vars.lvlib/intCounter</Property>
+	<Property Name="varPersistentID:{4AA02385-DFB4-4F5F-A4C7-66123631E0FD}" Type="Ref">/My Computer/Dependencies/vi.lib/System Serial Library Variables.lvlib/Serial String Buffer</Property>
+	<Property Name="varPersistentID:{82FF4CC4-1A80-4E7E-AB46-200917E898CF}" Type="Ref">/My Computer/Dependencies/LabVIEW Universal Transcriptor SD Card Library.lvlib/rewindDirectoryList</Property>
+	<Property Name="varPersistentID:{A0B581DF-F5DA-4CDF-9B0A-BAACF0483134}" Type="Ref">/My Computer/Interrupt With Global Variable Example/utils/Interrupt Example Globals Vars.lvlib/intCounter2</Property>
+	<Property Name="varPersistentID:{E2BF96D1-360B-4510-9AB3-1E058374682E}" Type="Ref">/My Computer/Dependencies/vi.lib/System Serial Library Variables.lvlib/Serial Status</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -31,6 +33,9 @@
 		<Item Name="FFT Software Example" Type="Folder" URL="../FFT Software Example">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Interrupt With Global Variable Example" Type="Folder" URL="../Interrupt With Global Variable Example">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="MCP4725 Example" Type="Folder" URL="../MCP4725 Example">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
@@ -53,6 +58,7 @@
 				<Item Name="Arduino Math.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW for Arduino Math Library/Arduino Math.lvlib"/>
 				<Item Name="Arduino MPU6050.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/Arduino MPU6050 Library/Arduino MPU6050.lvlib"/>
 				<Item Name="Arduino Rotary Encoder.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW Universal Transcriptor Rotary Encoder Library/Arduino Rotary Encoder.lvlib"/>
+				<Item Name="attachInterrupt.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/Transcriptors/System API/attachInterrupt.vi"/>
 				<Item Name="Base Datatype.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Native 3D Graph/classes/Base Datatype.lvclass"/>
 				<Item Name="Binary Search Sorted Array.vi" Type="VI" URL="/&lt;vilib&gt;/Native 3D Graph/Binary Search Sorted Array.vi"/>
 				<Item Name="CaseStructure Format FrameNames Into C code Strings.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/utils/CaseStructure Format FrameNames Into C code Strings.vi"/>
@@ -80,6 +86,7 @@
 				<Item Name="Get Variant Value.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/utils/Get Variant Value.vi"/>
 				<Item Name="Get Wire Info.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/utils/Get Wire Info.vi"/>
 				<Item Name="Get Wires Info.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/utils/Get Wires Info.vi"/>
+				<Item Name="interrupts.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/Transcriptors/System API/interrupts.vi"/>
 				<Item Name="Is Class Descendand of Class.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/utils/Is Class Descendand of Class.vi"/>
 				<Item Name="Is Variant LabVIEW Class.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/utils/Is Variant LabVIEW Class.vi"/>
 				<Item Name="LabVIEW Cluster Item Not Named Prefix.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/types/LabVIEW Cluster Item Not Named Prefix.vi"/>
@@ -95,8 +102,10 @@
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+				<Item Name="nointerrupts.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/Transcriptors/System API/nointerrupts.vi"/>
 				<Item Name="Parametric.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Native 3D Graph/classes/Parametric/Parametric.lvclass"/>
 				<Item Name="pinMode.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/Transcriptors/System API/pinMode.vi"/>
+				<Item Name="pinModeExtended.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/Transcriptors/System API/pinModeExtended.vi"/>
 				<Item Name="Reference To UID.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/utils/Reference To UID.vi"/>
 				<Item Name="Serial begin.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/Transcriptors/System API/Serial begin.vi"/>
 				<Item Name="Serial Close.vi" Type="VI" URL="/&lt;vilib&gt;/Aledyne-TSXperts/Arduino Compatible Compiler for LabVIEW/Code Generator/Arduino APIs/Serial/Serial Close.vi"/>
@@ -135,7 +144,7 @@
 				<Item Name="Transcriptor LabVIEW to C code Step 1 and 2 Wires Declarations and Assignements.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/Transcriptors/2/Transcriptor LabVIEW to C code Step 1 and 2 Wires Declarations and Assignements.vi"/>
 				<Item Name="Transcriptor LabVIEW to C code Step 3 Translate Elements.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/Transcriptors/2/Transcriptor LabVIEW to C code Step 3 Translate Elements.vi"/>
 				<Item Name="Transcriptor LabVIEW to C code Step 4 Assign Output Values.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/Transcriptors/2/Transcriptor LabVIEW to C code Step 4 Assign Output Values.vi"/>
-				<Item Name="TranscriptorBasicObject.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/utils/TranscriptorBasicObject.lvclass"/>
+				<Item Name="TranscriptorBasicObject.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/TranscriptorBasicObject.lvclass"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="Unbundle Code Cluster.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/utils/Unbundle Code Cluster.vi"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
@@ -168,6 +177,7 @@
 			<Item Name="SoftAP Config.vi" Type="VI" URL="../../ESP8266-Wifi-Wrapper/SoftAP Config.vi"/>
 			<Item Name="SoftAP.vi" Type="VI" URL="../../ESP8266-Wifi-Wrapper/SoftAP.vi"/>
 			<Item Name="String Index Of.vi" Type="VI" URL="../../ESP8266-Wifi-Wrapper/String/String Index Of.vi"/>
+			<Item Name="TranscriptorBasicObject.lvclass" Type="LVClass" URL="../../LabVIEW-Universal-Transcriptor/utils/TranscriptorBasicObject.lvclass"/>
 			<Item Name="WiFi Begin.vi" Type="VI" URL="../../ESP8266-Wifi-Wrapper/WiFi Begin.vi"/>
 			<Item Name="WiFi Config.vi" Type="VI" URL="../../ESP8266-Wifi-Wrapper/WiFi Config.vi"/>
 			<Item Name="WiFi Setup.vi" Type="VI" URL="../../ESP8266-Wifi-Wrapper/WiFi Setup.vi"/>
