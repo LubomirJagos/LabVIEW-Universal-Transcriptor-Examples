@@ -19,6 +19,9 @@
 		<Item Name="Blink" Type="Folder" URL="../Blink">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="DEMO kit 1" Type="Folder" URL="../DEMO kit 1">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Digital Filters" Type="Folder" URL="../Digital Filters">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
@@ -49,6 +52,7 @@
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="Arduino Math.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW for Arduino Math Library/Arduino Math.lvlib"/>
 				<Item Name="Arduino MPU6050.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/Arduino MPU6050 Library/Arduino MPU6050.lvlib"/>
+				<Item Name="Arduino Rotary Encoder.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW Universal Transcriptor Rotary Encoder Library/Arduino Rotary Encoder.lvlib"/>
 				<Item Name="Base Datatype.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Native 3D Graph/classes/Base Datatype.lvclass"/>
 				<Item Name="Binary Search Sorted Array.vi" Type="VI" URL="/&lt;vilib&gt;/Native 3D Graph/Binary Search Sorted Array.vi"/>
 				<Item Name="CaseStructure Format FrameNames Into C code Strings.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/utils/CaseStructure Format FrameNames Into C code Strings.vi"/>
@@ -64,6 +68,7 @@
 				<Item Name="Complex Numbers Static.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW for Arduino Complex Numbers Static/Complex Numbers Static.lvlib"/>
 				<Item Name="Delay Millis.vi" Type="VI" URL="/&lt;vilib&gt;/Aledyne-TSXperts/Arduino Compatible Compiler for LabVIEW/Code Generator/Arduino APIs/Timing/Delay Millis.vi"/>
 				<Item Name="delay.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/Transcriptors/System API/delay.vi"/>
+				<Item Name="digitalRead.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/Transcriptors/System API/digitalRead.vi"/>
 				<Item Name="digitalWrite.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/Transcriptors/System API/digitalWrite.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="ESP8266 WiFi Wrapper.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/ESP8266 WiFi Wrapper/ESP8266 WiFi Wrapper.lvlib"/>
