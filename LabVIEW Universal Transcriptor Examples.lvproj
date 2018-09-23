@@ -161,6 +161,8 @@
 			<Item Name="Create WiFi Server.vi" Type="VI" URL="../../ESP8266-Wifi-Wrapper/Create WiFi Server.vi"/>
 			<Item Name="ESP Target.vi" Type="VI" URL="../../ESP8266-Wifi-Wrapper/ESP Target.vi"/>
 			<Item Name="ESP8266 WiFi Wrapper.lvlib" Type="Library" URL="../../ESP8266-Wifi-Wrapper/ESP8266 WiFi Wrapper.lvlib"/>
+			<Item Name="File.ctl" Type="VI" URL="../../LabVIEW-Universal-Transcriptor-SD-Card-Library/File.lvclass/File.ctl"/>
+			<Item Name="File.lvclass" Type="LVClass" URL="../../LabVIEW-Universal-Transcriptor-SD-Card-Library/File.lvclass"/>
 			<Item Name="Get If Rewind This Directory.vi" Type="VI" URL="../../LabVIEW-Universal-Transcriptor-SD-Card-Library/File Class/Get If Rewind This Directory.vi"/>
 			<Item Name="LabVIEW Universal Transcriptor AD9850.lvlib" Type="Library" URL="../../LabVIEW-Universal-Transcriptor-AD9850/LabVIEW Universal Transcriptor AD9850.lvlib"/>
 			<Item Name="LabVIEW Universal Transcriptor MCP4725.lvlib" Type="Library" URL="../../LabVIEW-Universal-Transcriptor-MCP4725/LabVIEW Universal Transcriptor MCP4725.lvlib"/>
