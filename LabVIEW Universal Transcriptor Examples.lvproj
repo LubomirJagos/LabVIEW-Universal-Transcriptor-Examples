@@ -218,6 +218,7 @@
 			<Item Name="SoftAP Config.vi" Type="VI" URL="../../ESP8266-Wifi-Wrapper/SoftAP Config.vi"/>
 			<Item Name="SoftAP.vi" Type="VI" URL="../../ESP8266-Wifi-Wrapper/SoftAP.vi"/>
 			<Item Name="String Index Of.vi" Type="VI" URL="../../ESP8266-Wifi-Wrapper/String/String Index Of.vi"/>
+			<Item Name="TranscriptorBasicObject.lvclass" Type="LVClass" URL="../../LabVIEW-Universal-Transcriptor/utils/TranscriptorBasicObject.lvclass"/>
 			<Item Name="WiFi Begin.vi" Type="VI" URL="../../ESP8266-Wifi-Wrapper/WiFi Begin.vi"/>
 			<Item Name="WiFi Config.vi" Type="VI" URL="../../ESP8266-Wifi-Wrapper/WiFi Config.vi"/>
 			<Item Name="WiFi Setup.vi" Type="VI" URL="../../ESP8266-Wifi-Wrapper/WiFi Setup.vi"/>
