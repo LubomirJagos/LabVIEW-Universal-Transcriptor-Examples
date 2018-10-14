@@ -9,3 +9,11 @@ Cache_Path[Path] Line0002 = "he_{C8B47248-A22F-45B1-9C23-38CF289507B9}.txt"
 Cache_Path[Path] Line0001 = "/C/Users/Simon Gurfunkel/AppData/Local/Temp/AB_Cac"
 Cache_Path[Path] Line0002 = "he_{9C7345F3-3FA4-4C2E-8E1D-FE255A5BEE4B}.txt"
 
+[AB_Cache_{F7695DC2-0DB1-4C14-AB96-9829D4F701B4}]
+Cache_Path[Path] Line0001 = "/C/Users/Simon Gurfunkel/AppData/Local/Temp/AB_Cac"
+Cache_Path[Path] Line0002 = "he_{F7695DC2-0DB1-4C14-AB96-9829D4F701B4}.txt"
+
+[AB_Cache_{0D36717D-0306-4CC7-96FA-8E5A076DCFDD}]
+Cache_Path[Path] Line0001 = "/C/Users/Simon Gurfunkel/AppData/Local/Temp/AB_Cac"
+Cache_Path[Path] Line0002 = "he_{0D36717D-0306-4CC7-96FA-8E5A076DCFDD}.txt"
+

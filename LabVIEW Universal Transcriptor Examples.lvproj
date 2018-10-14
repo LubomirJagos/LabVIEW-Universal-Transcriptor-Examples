@@ -48,6 +48,9 @@
 		<Item Name="MPU6050 AccelerometerGyroscope Examples" Type="Folder" URL="../MPU6050 AccelerometerGyroscope Examples">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="PC Applications" Type="Folder" URL="../PC Applications">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Rotary Encoder" Type="Folder" URL="../Rotary Encoder">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
@@ -60,6 +63,7 @@
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="3DPC_SurfacePlot.xctl" Type="XControl" URL="/&lt;vilib&gt;/Native 3D Graph/xcontrol/3DPC_SurfacePlot.xctl"/>
+				<Item Name="analogRead.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/Transcriptors/System API/analogRead.vi"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="Arduino Math.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW for Arduino Math Library/Arduino Math.lvlib"/>
 				<Item Name="Arduino MPU6050.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/Arduino MPU6050 Library/Arduino MPU6050.lvlib"/>
@@ -179,10 +183,14 @@
 				<Item Name="Transcriptor LabVIEW to C code Step 1 and 2 Wires Declarations and Assignements.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/Transcriptors/2/Transcriptor LabVIEW to C code Step 1 and 2 Wires Declarations and Assignements.vi"/>
 				<Item Name="Transcriptor LabVIEW to C code Step 3 Translate Elements.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/Transcriptors/2/Transcriptor LabVIEW to C code Step 3 Translate Elements.vi"/>
 				<Item Name="Transcriptor LabVIEW to C code Step 4 Assign Output Values.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/Transcriptors/2/Transcriptor LabVIEW to C code Step 4 Assign Output Values.vi"/>
+				<Item Name="TranscriptorBasicObject.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/utils/TranscriptorBasicObject.lvclass"/>
 				<Item Name="TranscriptorBasicObject.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/TranscriptorBasicObject.lvclass"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="Unbundle Code Cluster.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/utils/Unbundle Code Cluster.vi"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
+				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
+				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
+				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Wire Is Different as WhileLoop EndRef Wire.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/utils/Wire Is Different as WhileLoop EndRef Wire.vi"/>
 				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
@@ -218,7 +226,6 @@
 			<Item Name="SoftAP Config.vi" Type="VI" URL="../../ESP8266-Wifi-Wrapper/SoftAP Config.vi"/>
 			<Item Name="SoftAP.vi" Type="VI" URL="../../ESP8266-Wifi-Wrapper/SoftAP.vi"/>
 			<Item Name="String Index Of.vi" Type="VI" URL="../../ESP8266-Wifi-Wrapper/String/String Index Of.vi"/>
-			<Item Name="TranscriptorBasicObject.lvclass" Type="LVClass" URL="../../LabVIEW-Universal-Transcriptor/utils/TranscriptorBasicObject.lvclass"/>
 			<Item Name="WiFi Begin.vi" Type="VI" URL="../../ESP8266-Wifi-Wrapper/WiFi Begin.vi"/>
 			<Item Name="WiFi Config.vi" Type="VI" URL="../../ESP8266-Wifi-Wrapper/WiFi Config.vi"/>
 			<Item Name="WiFi Setup.vi" Type="VI" URL="../../ESP8266-Wifi-Wrapper/WiFi Setup.vi"/>
@@ -263,6 +270,46 @@
 				<Property Name="TgtF_productName" Type="Str">MCU6050 Show Acceleration</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{E0D5EFC4-98C7-47A3-8604-968B9C20F0FE}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">LuboJ_LabVIEW_Universal_Transcriptor_Virbation_Demo.exe</Property>
+			</Item>
+			<Item Name="Serial Plotter 2 Values" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{3D2A2A64-424F-488A-BA13-05D0F32F39F2}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{6B11F52C-3B7E-4EB7-8665-E3E4B7788AB9}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{F7695DC2-0DB1-4C14-AB96-9829D4F701B4}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Serial Plotter 2 Values</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{0D36717D-0306-4CC7-96FA-8E5A076DCFDD}</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Serial Plotter 2 Values.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/Serial Plotter 2 Values.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{7CB36384-A00C-441B-A55C-86ADC2A853E8}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/PC Applications/Serial Plotter 2 Values.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Serial Plotter 2 Values</Property>
+				<Property Name="TgtF_internalName" Type="Str">Serial Plotter 2 Values</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2018 </Property>
+				<Property Name="TgtF_productName" Type="Str">Serial Plotter 2 Values</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{3573BD4E-6BAE-4060-BCAA-FC6BACC377B1}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Serial Plotter 2 Values.exe</Property>
 			</Item>
 		</Item>
 	</Item>
