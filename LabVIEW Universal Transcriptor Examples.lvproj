@@ -21,6 +21,9 @@
 		<Item Name="Blink" Type="Folder" URL="../Blink">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="builds" Type="Folder" URL="../builds">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="C++ syntax highligter" Type="Folder" URL="../C++ syntax highligter">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
@@ -183,7 +186,6 @@
 				<Item Name="Transcriptor LabVIEW to C code Step 1 and 2 Wires Declarations and Assignements.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/Transcriptors/2/Transcriptor LabVIEW to C code Step 1 and 2 Wires Declarations and Assignements.vi"/>
 				<Item Name="Transcriptor LabVIEW to C code Step 3 Translate Elements.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/Transcriptors/2/Transcriptor LabVIEW to C code Step 3 Translate Elements.vi"/>
 				<Item Name="Transcriptor LabVIEW to C code Step 4 Assign Output Values.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/Transcriptors/2/Transcriptor LabVIEW to C code Step 4 Assign Output Values.vi"/>
-				<Item Name="TranscriptorBasicObject.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/utils/TranscriptorBasicObject.lvclass"/>
 				<Item Name="TranscriptorBasicObject.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/TranscriptorBasicObject.lvclass"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="Unbundle Code Cluster.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/utils/Unbundle Code Cluster.vi"/>
@@ -226,6 +228,7 @@
 			<Item Name="SoftAP Config.vi" Type="VI" URL="../../ESP8266-Wifi-Wrapper/SoftAP Config.vi"/>
 			<Item Name="SoftAP.vi" Type="VI" URL="../../ESP8266-Wifi-Wrapper/SoftAP.vi"/>
 			<Item Name="String Index Of.vi" Type="VI" URL="../../ESP8266-Wifi-Wrapper/String/String Index Of.vi"/>
+			<Item Name="TranscriptorBasicObject.lvclass" Type="LVClass" URL="../../LabVIEW-Universal-Transcriptor/utils/TranscriptorBasicObject.lvclass"/>
 			<Item Name="WiFi Begin.vi" Type="VI" URL="../../ESP8266-Wifi-Wrapper/WiFi Begin.vi"/>
 			<Item Name="WiFi Config.vi" Type="VI" URL="../../ESP8266-Wifi-Wrapper/WiFi Config.vi"/>
 			<Item Name="WiFi Setup.vi" Type="VI" URL="../../ESP8266-Wifi-Wrapper/WiFi Setup.vi"/>
@@ -286,7 +289,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{0D36717D-0306-4CC7-96FA-8E5A076DCFDD}</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Serial Plotter 2 Values.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Serial Plotter 2 Values.exe</Property>
