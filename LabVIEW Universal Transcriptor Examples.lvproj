@@ -15,6 +15,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="7segment LED" Type="Folder" URL="../7segment LED">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="AD9850 DDS sinewave generator" Type="Folder" URL="../AD9850 DDS sinewave generator">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
