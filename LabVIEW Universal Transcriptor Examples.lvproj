@@ -33,6 +33,9 @@
 		<Item Name="DEMO kit 1" Type="Folder" URL="../DEMO kit 1">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="DEMO Kit Tractor" Type="Folder" URL="../DEMO Kit Tractor">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Digital Filters" Type="Folder" URL="../Digital Filters">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
@@ -70,6 +73,7 @@
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="3DPC_SurfacePlot.xctl" Type="XControl" URL="/&lt;vilib&gt;/Native 3D Graph/xcontrol/3DPC_SurfacePlot.xctl"/>
 				<Item Name="analogRead.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/Transcriptors/System API/analogRead.vi"/>
+				<Item Name="analogWrite.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/Transcriptors/System API/analogWrite.vi"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="Arduino Math.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW for Arduino Math Library/Arduino Math.lvlib"/>
 				<Item Name="Arduino MPU6050.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/Arduino MPU6050 Library/Arduino MPU6050.lvlib"/>
@@ -201,7 +205,6 @@
 				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
 			</Item>
 			<Item Name="Available.vi" Type="VI" URL="../../ESP8266-Wifi-Wrapper/Available.vi"/>
-			<Item Name="begin.vi" Type="VI" URL="../../LabVIEW-Universal-Transcriptor-SD-Card-Library/begin.vi"/>
 			<Item Name="Client Check If Valid.vi" Type="VI" URL="../../ESP8266-Wifi-Wrapper/Client Functions/Client Check If Valid.vi"/>
 			<Item Name="Client Flush.vi" Type="VI" URL="../../ESP8266-Wifi-Wrapper/Client Functions/Client Flush.vi"/>
 			<Item Name="Client Print.vi" Type="VI" URL="../../ESP8266-Wifi-Wrapper/Client Functions/Client Print.vi"/>
@@ -222,7 +225,6 @@
 			<Item Name="OTA Blink LED.vi" Type="VI" URL="../../ESP8266-Wifi-Wrapper/tests/OTA/utils/OTA Blink LED.vi"/>
 			<Item Name="OTA Init.vi" Type="VI" URL="../../ESP8266-Wifi-Wrapper/ArduinoOTA/OTA Init.vi"/>
 			<Item Name="OTA Ticker Attach.vi" Type="VI" URL="../../ESP8266-Wifi-Wrapper/ArduinoOTA/OTA Ticker Attach.vi"/>
-			<Item Name="printDirectory.vi" Type="VI" URL="../../LabVIEW-Universal-Transcriptor-SD-Card-Library/Examples/listfiles/printDirectory.vi"/>
 			<Item Name="Serial Print Target IP.vi" Type="VI" URL="../../ESP8266-Wifi-Wrapper/Serial Print Target IP.vi"/>
 			<Item Name="Serial Wifi Print IP.vi" Type="VI" URL="../../ESP8266-Wifi-Wrapper/Serial Wifi Print IP.vi"/>
 			<Item Name="Serial Wifi Print SoftAPIP.vi" Type="VI" URL="../../ESP8266-Wifi-Wrapper/Serial Wifi Print SoftAPIP.vi"/>
